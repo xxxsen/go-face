@@ -19,7 +19,7 @@ Latest versions of Ubuntu and Debian provide suitable dlib package so just run:
 # Ubuntu
 sudo apt-get install libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg-turbo8-dev
 # Debian
-sudo apt-get install libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg62-turbo-dev
+sudo apt-get install libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg62-turbo-dev gfortran
 ```
 
 ### macOS
