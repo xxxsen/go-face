@@ -1,7 +1,7 @@
 package face
 
 // #cgo CXXFLAGS: -std=c++1z -Wall -O3 -DNDEBUG -march=native
-// #cgo LDFLAGS: -ldlib -lblas -lcblas -llapack -ljpeg
+// #cgo LDFLAGS: -ldlib -ljpeg -llapack -lf77blas -lcblas -latlas -lgfortran -lm -lquadmath
 // #include <stdlib.h>
 // #include <stdint.h>
 // #include "facerec.h"
